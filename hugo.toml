@@ -1,7 +1,7 @@
 baseURL = "https://v01d-c0r3.github.io/"
-locale = 'en-us'
-title = 'v01d-c0r3'
-theme = 'hello-friend-ng'
+languageCode = "en-us"
+title = "v01d-c0r3"
+theme = "hello-friend-ng"
 
 enableEmoji = true
 enableRobotsTXT = true
@@ -20,9 +20,19 @@ enableRobotsTXT = true
   description    = "v01d-c0r3's blog, writeups, and projects"
   enableReadingTime = true
   enableSharingButtons = true
+  enableThemeToggle = true
+  themeColor = "#0b0b10"
+  customCSS = ["/css/custom.css"]
 
   [params.author]
     name = "v01d-c0r3"
+
+  [params.logo]
+    logoMark          = ">"
+    logoText          = "$ cd /home/"
+    logoHomeLink      = "/"
+    logoCursorColor   = "#9a7dff"
+    logoCursorAnimate = "1.2s"
 
   [params.footer]
     trademark  = 2026
@@ -38,24 +48,24 @@ enableRobotsTXT = true
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name       = "Blog"
+    name       = "~/blog"
     url        = "/posts/"
     weight     = 1
 
   [[menu.main]]
     identifier = "writeups"
-    name       = "Writeups"
+    name       = "~/writeups"
     url        = "/writeups/"
     weight     = 2
 
   [[menu.main]]
     identifier = "projects"
-    name       = "Projects"
+    name       = "~/projects"
     url        = "/projects/"
     weight     = 3
 
   [[menu.main]]
     identifier = "about"
-    name       = "About"
+    name       = "~/about"
     url        = "/about/"
     weight     = 4

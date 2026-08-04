@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Light theme colors */
+$light-background: #f7f6f9;
+$light-background-secondary: #ebe9f2;
+$light-background-header: #ffffff;
+$light-color: #201f2b;
+$light-color-variant: #0e0d14;
+$light-color-secondary: #6b6980;
+$light-border-color: #dedbe8;
+$light-table-color: #dedbe8;
+
+/* Dark theme colors — "void" palette: cool near-black with a violet undertone */
+$dark-background: #0b0b10;
+$dark-background-secondary: #16151d;
+$dark-background-header: #08080c;
+$dark-color: #cac9d6;
+$dark-color-variant: #f5f4fb;
+$dark-color-secondary: #74748a;
+$dark-border-color: #26262f;
+$dark-table-color: #26262f;
+
+$media-size-phone: "(max-width: 684px)";
+$media-size-tablet: "(max-width: 900px)";
+
+:root {
+  --phoneWidth: (max-width: 684px);
+  --tabletWidth: (max-width: 900px);
+  --accent: #9a7dff;
+  --accent-dim: #6f57c9;
+}
+
+/* Content */
+$max-width: 860px;
