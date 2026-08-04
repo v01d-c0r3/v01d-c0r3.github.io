@@ -2,3 +2,60 @@ baseURL = "https://v01d-c0r3.github.io/"
 locale = 'en-us'
 title = 'v01d-c0r3'
 theme = 'hello-friend-ng'
+
+enableEmoji = true
+enableRobotsTXT = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[permalinks]
+  posts    = "/posts/:year/:month/:title/"
+  writeups = "/writeups/:title/"
+  projects = "/projects/:title/"
+
+[params]
+  homeSubtitle   = "v01d-c0r3"
+  description    = "v01d-c0r3's blog, writeups, and projects"
+  enableReadingTime = true
+  enableSharingButtons = true
+
+  [params.author]
+    name = "v01d-c0r3"
+
+  [params.footer]
+    trademark  = 2026
+    rss        = true
+    copyright  = true
+    author     = true
+    bottomText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/v01d-c0r3"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Blog"
+    url        = "/posts/"
+    weight     = 1
+
+  [[menu.main]]
+    identifier = "writeups"
+    name       = "Writeups"
+    url        = "/writeups/"
+    weight     = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects/"
+    weight     = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about/"
+    weight     = 4
