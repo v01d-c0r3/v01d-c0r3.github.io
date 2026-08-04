@@ -1,7 +1,7 @@
 +++
 title = "HSM - Sysadmins"
 date = 2026-08-04T11:47:47+01:00
-draft = true
+draft = false
 toc = true
 tags = ["linux", "privesc"]        
 categories = ["writeups"]
